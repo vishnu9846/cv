@@ -1,0 +1,150 @@
+html,body{
+    height: 100%;
+    width: 60vw;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+#mm{
+    background-color: white;
+}
+
+
+#name{
+    color:white;
+    background-color: rgb(99, 103, 94);
+    display: flex;
+    align-items: ;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#head{
+    display: grid;
+    line-height:;
+    gap: 6px;
+}
+#add{
+    padding-right: 45px;
+    padding-bottom: 12px;
+}
+#add ul{
+    display: grid;
+    gap: 13px;
+}
+#add a{
+    list-style: none;
+    color: white;
+
+}
+/* section start */
+.hgrid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(150px,2fr ) );
+}
+
+.section1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#exp h4{
+    text-decoration: underline;
+    color: red;
+}
+#exp{
+    padding-bottom: 40px;
+    padding-left: 32px;
+   line-height: 1.7;
+}
+
+#exp li{
+    list-style: disc;
+
+}
+.section2{
+    padding-top: 15px;
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+}
+.section2 h5,h4{
+    padding-left: 54px;
+}
+.section2 h4{
+    text-decoration: underline;
+    color: red;
+}
+
+.map{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.map p,#git p{
+    background-color: cadetblue;
+    border-radius: 6px;
+    padding: .3rem;
+    max-width: 4.9rem; 
+    text-align: center;
+}
+#git p{
+   margin-left: 80px;
+   padding: 0px;
+   width: 3rem;
+   background-color: cadetblue;
+}
+#git h4{
+    padding-top: 12px;
+}
+#git{
+    line-height: 2;
+    
+}
+#add a{
+    text-decoration: none;
+}
+#pkd p,ul{
+    /* padding-left: 50px; */
+    padding-top: 10px;
+}
+@media screen and (max-width: 800px) {
+    #add{
+        
+    }
+    #name{
+        display: block  
+        
+    }
+    .section2{
+        display: block;
+    }
+    html,body{
+        height: 100%;
+        width: 100vw;
+        margin: auto;
+    }
+    .hgrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+#name i{
+    margin-right: 10px;
+}
+#pkd li{
+    list-style: disc;
+}
+    
+
+
+
+
